@@ -15,7 +15,7 @@ You have to complete grade function which contains integer N as input and return
 
 
 import java.util.*;
-public class Main {
+public class GradingSystem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n= sc.nextInt();
