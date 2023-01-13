@@ -5,7 +5,7 @@
 *******************************************************************************/
 
 import java.util.*;
-public class Main
+public class ArmstrongNumbers
 {
     //Power of every number,
     int power(int x, int y){
@@ -47,7 +47,7 @@ public class Main
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);	
 		int n = sc.nextInt();		
-		Main Ar = new Main();
+		ArmstrongNumbers Ar = new ArmstrongNumbers();
 		System.out.println(Ar.armstrong(n));
 	}
 }
