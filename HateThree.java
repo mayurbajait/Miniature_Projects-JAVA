@@ -25,10 +25,12 @@ Output
 
 /******************************************************************************
       
-                            Hate Three                      
+                            Hate Three  
+							First Approch                    
 
 *******************************************************************************/
 import java.util.*;
+
 public class HateThree
 {
 	public static void main(String[] args) {
@@ -48,5 +50,31 @@ public class HateThree
 	        count++;
 	    }
 	    System.out.println(n);
+	}
+}
+
+/******************************************************************************
+ * 
+ * Second Approch
+ * 
+ *******************************************************************************/
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+
+		int k = sc.nextInt();
+
+		int n = 0;
+
+		for (int i = 0; i < k; i++) {
+			n++;
+			while (n % 3 == 0 || n % 10 == 3) {
+				n++;
+			}
+		}
+		System.out.println(n);
+
 	}
 }
